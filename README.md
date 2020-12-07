@@ -52,5 +52,7 @@ End with an example of getting some data out of the system or using it for a lit
 * [Contact us in Telegram](https://t.me/base64_encrypted)
 * [Follow us in Instagram](https://instagram.com/d4rk_vamp1re.py)
 * [Follow us in Twitter](https://twitter.com/D4rk_VAMP1RE)
-                           
+
+<center>
 <h1>JAI HIND :!</h1>
+<center>
