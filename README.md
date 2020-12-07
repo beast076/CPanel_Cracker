@@ -16,9 +16,8 @@ The CPanel must have reset password option.
 
 ### How To Use
 
-A step by step series of examples that tell you how to get a development env running
+A step by step guide to script
 
-Say what the step will be
 
 ```
 $ git clone https://github.com/D4rk-VAMP1RE/CPanel_Cracker
@@ -46,7 +45,7 @@ $ Now you will recieve a email for reseting the cpanel password. It's Done Enjoy
 ```
 
 
-End with an example of getting some data out of the system or using it for a little demo
+Thank you have a nice day.
 
 ## Support us :
 * [Contact us in Telegram](https://t.me/base64_encrypted)
